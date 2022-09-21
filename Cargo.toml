@@ -1,0 +1,12 @@
+[package]
+name = "payments"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.1.6"
+rust_decimal = { version = "1.26.1", features = ["serde-with-float"] }
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+assert_cmd = "2.0.4"
